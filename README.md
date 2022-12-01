@@ -6,5 +6,8 @@
 * Text formatting (color, line height, font, font-weight, underline, stroke, itallic) 
 * Background (background color, background images, background
 size, background position)<br>
+3.Buttons, Border, Color and Pseudo class.<br>
+  Create buttons as per given figure.<br>
+  Create borders as per given figure.
 
 
