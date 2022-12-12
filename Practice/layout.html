@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Management</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+
+        .box1{
+            border: 3px solid red;
+            justify-content: center;
+            height: 550px;
+            width: 1200px;
+            position: relative;
+            
+            
+            
+
+        }
+        .box2{
+            border: 3px solid blue;
+            justify-content: center;
+            height: 450px;
+            width: 1000px;
+            position: absolute;
+            top: 50px;
+            left:100px;
+
+        }
+        .box3{
+            border: 3px solid green;
+            justify-content: center;
+            height: 350px;
+            width: 800px;
+            position: absolute;
+            top: 50px;
+            left:100px;
+        }
+        .box4{
+            border: 3px solid violet;
+            justify-content: center;
+            height: 250px;
+            width: 600px;
+            position: absolute;
+            top: 50px;
+            left:100px;
+        }
+        .box5{
+            position: relative;
+            border: 3px solid blue;
+            justify-content: center;
+            height: 150px;
+            width: 400px;
+           
+            top: 50px;
+            left:100px;
+            
+        }
+         .square{
+            border-radius: 100%;
+         }
+            
+        
+        .b1lc{ border: 20px solid red;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+        }
+        .b1rc{
+            border: 20px solid black;
+            background-color: black;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        .b2lc{ border: 20px solid red;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            left: 0;}
+            .b2rc{
+            border: 20px solid black;
+            background-color: black;
+            position: absolute;
+            bottom: 0;
+            right: 0;}
+            .b3rc{
+            border: 20px solid blue;
+            background-color: blue;
+            position: absolute;
+            bottom: 0;
+            left: 0;}
+            .b3lc{
+            border: 20px solid darkgoldenrod ;
+            background-color: darkgoldenrod;
+            position: absolute;
+            top: 0;
+            right: 0;}
+            .b4lc{
+            border: 20px solid darkgoldenrod ;
+            background-color: darkgoldenrod;
+            position: absolute;
+            top: 0;
+            right: 0;}
+
+            .b4rc{
+            border: 20px solid blue;
+            background-color: blue;
+            position: absolute;
+            bottom: 0;
+            left: 0;}
+            .b5rc{
+            border: 20px solid darkgreen;
+            background-color: darkgreen;
+            position: absolute;
+            bottom: 0;
+            right: 0;}
+            .b5lc{
+            border: 20px solid darkgreen;
+            background-color: darkgreen;
+            position: absolute;
+            top: 0;
+            left: 0;}
+
+
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="square b1lc"></div>
+        <div class="square b1rc"></div>
+        <div class="box2">
+            <div class="square b2lc"></div>
+            <div class="square b2rc"></div>
+            <div class="box3">
+                <div class="square b3lc"></div>
+                <div class="square b3rc"></div>
+                <div class="box4">
+                    <div class="square b4lc"></div>
+                    <div class="square b4rc"></div>
+                    <div class="box5">
+                    <div class="square b5lc"></div>
+                    <div class="square b5rc"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
