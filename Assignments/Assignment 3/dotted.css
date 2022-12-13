@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 section{
     display: flex;
 }
@@ -45,4 +46,53 @@ span{
 }
 .hidden{
     border: 5px hidden;
+=======
+section{
+    display: flex;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em;
+}
+span{
+    display: flex;
+    margin: 0.5em;
+    padding: 1em 4em;
+    justify-content: center;
+}
+.dotted{
+    border: 5px dotted black;
+}
+.dashed{
+    border: 3px dashed black;
+}
+.solid{
+    border: 3px solid black;
+}
+.double{
+    border: 4px double black;
+}
+.groove{
+    border: 
+    5px groove grey;
+}
+.ridge{
+    border: 5px ridge grey;
+}
+.inset{
+    border: 5px inset grey;
+
+}
+.outset{
+    border: 5px outset grey;
+}
+.none{
+    border: 5px none;
+
+}
+.hidden{
+    border: 5px hidden;
+>>>>>>> fb4e2a05d48bf3fc678fdb63b1e58d85f60ce150
 }

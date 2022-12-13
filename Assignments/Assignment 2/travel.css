@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: #eaf6f6;
 }
@@ -53,4 +54,61 @@ p{
 .abc{
     background-color: rgba(140, 231, 232, 0.169);
 
+=======
+body {
+    background-color: #eaf6f6;
+}
+
+h1{ text-align: center;
+    color: skyblue;
+}
+.destination{
+   text-align: center;
+   
+
+}
+.pictures{
+    height: 300px;
+    width: 500px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slogan{
+    margin-left: 50px;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color:grey;
+    border-width: 7px;
+    width: 100%;
+    
+
+}
+p{
+    color:hsl(0, 100%, 0%);
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 25px;
+
+}
+.ktm{
+    background-color: rgba(68, 115, 233, 0.094);
+   
+}
+.ebc{
+    background-color: rgba(15, 29, 41, 0.066);
+
+}
+.pkr{
+    background-color: rgba(140, 107, 155, 0.121);
+
+}
+.abc{
+    background-color: rgba(140, 231, 232, 0.169);
+
+>>>>>>> fb4e2a05d48bf3fc678fdb63b1e58d85f60ce150
 }
