@@ -13,8 +13,7 @@ nav{
     background: #ffffff;
     height: 60px ;
     width: 100%;
-    /* position: relative; */
-    /* border: solid 1px; */
+  
     box-shadow: 0;
 }
 
@@ -26,7 +25,7 @@ nav{
     position: relative;
 }
 .logo-name{
-    /* display: inline-block; */
+   
     left: 15px;
     bottom: 5px;
     font-weight: 600;
@@ -42,26 +41,25 @@ nav{
 nav ul{
     float: left;
     position: relative;
-    /* top: -40px; */
+  
     bottom: 80px;
     left: 150px;
 
-    /* display: inline-block; */
+   
 }
 nav ul li{
     display: inline-block;
-    /* line-height: 60px; */
-    /* padding-left: 20px; */
+ 
     padding-left: 10px;
     padding-right: 10px;
     opacity: 50%;
-    /* border:solid ; */
+   
 }
 a{
     color: black;
     font-size: small;
     line-height: 60px;
-    /* border: solid; */
+   
 }
 li:hover{
     border-bottom:solid 2px rgb(91, 55, 218);
@@ -104,7 +102,7 @@ input{
 }
 .bell{
   opacity: 50%;
-  /* margin: 20px; */
+  
   position: relative;
   bottom: 45px;
 }
